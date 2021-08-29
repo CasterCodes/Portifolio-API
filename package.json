@@ -1,0 +1,40 @@
+{
+  "name": "castercodes",
+  "version": "1.0.0",
+  "description": "Kevin caster website api",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "supervisor server.js"
+  },
+  "author": "Kevin Caster",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "dompurify": "^2.2.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.2",
+    "express-rate-limit": "^5.2.6",
+    "helmet": "^4.4.1",
+    "hpp": "^0.2.3",
+    "install": "^0.13.0",
+    "jsdom": "^16.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "marked": "^2.0.0",
+    "mongoose": "^5.11.15",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.5.0",
+    "npm": "^7.6.0",
+    "sharp": "^0.27.2",
+    "slugify": "^1.4.7",
+    "supervisor": "^0.12.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
